@@ -13,7 +13,9 @@ Usage goes like this
                     },
                     data:{
                       foo:'bar',
-                    }
+                    },
+                    onmousedown: function(e){alert('mousedown!')},
+                    onmouseup: function(e){alert('mouseup!')},
                 });
                 //Left Menu
                 var logo = Ele('div', {
